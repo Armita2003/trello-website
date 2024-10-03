@@ -27,7 +27,7 @@ const SignIn = () => {
     const handleSubmit = () => {
         setOpenSnackbar(true);
         setTimeout(() => {
-            router.push("/Home");
+            router.push("/Trello");
         }, 1000);
     };
 
